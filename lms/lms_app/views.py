@@ -39,7 +39,6 @@ def books(request):
         'category': Category.objects.all(),
         'books': search,
         'CategoryForm': CategoryForm(),
-        'CategoryForm': CategoryForm(),
 
     }
     return render(request , 'pages/books.html' , x)

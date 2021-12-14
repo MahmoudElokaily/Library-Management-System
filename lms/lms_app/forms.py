@@ -33,7 +33,7 @@ class BookForm(forms.ModelForm):
         # fields = '__all__'
 
         widgets = {
-            'title': forms.TextInput(attrs={'class':'form-control'}),
+            'title': forms.TextInput(attrs={'class': 'form-control'}),
             'author': forms.TextInput(attrs={'class': 'form-control'}),
             'photo_book': forms.FileInput(attrs={'class': 'form-control'}),
             'photo_author': forms.FileInput(attrs={'class': 'form-control'}),
